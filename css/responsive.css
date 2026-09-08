@@ -1,0 +1,313 @@
+/* ============================================================
+   responsive.css — VitalTrek Landing
+   Mobile-first responsive breakpoints
+   ============================================================ */
+
+/* ── TABLET: 768px+ ── */
+@media (min-width: 48em) {
+  :root {
+    --gutter: 2rem;          /* 32px tablet */
+    --section-gap: 5.5rem;   /* 88px tablet */
+  }
+
+  .trust-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── DESKTOP: 1024px+ ── */
+@media (min-width: 64em) {
+  :root {
+    --gutter: 4rem;          /* 64px desktop */
+    --section-gap: 7.5rem;   /* 120px desktop */
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .site-nav {
+    display: flex;
+  }
+}
+
+/* ── WIDE: 1280px+ ── */
+@media (min-width: 80em) {
+  :root {
+    --gutter: 4rem;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   MOBILE: max 767px
+   ───────────────────────────────────────────── */
+@media (max-width: 47.9375em) {
+  :root {
+    --gutter: 1.25rem;
+    --section-gap: 4rem;
+    --text-display: 2.625rem;
+    --text-h2: 2rem;
+    --text-h3: 1.5rem;
+    --text-lead: 1.125rem;
+  }
+
+  /* Header: hide desktop nav, show hamburger */
+  .site-nav,
+  .header-actions .btn--primary-light {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .header-actions {
+    gap: var(--space-2);
+  }
+
+  /* Hero: single column */
+  .hero-section {
+    padding-block: 4rem 3rem;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dashboard-mockup {
+    justify-self: stretch;
+    max-width: 100%;
+  }
+
+  /* Trust strip: 1 col */
+  .trust-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  /* Why: 1 col */
+  .why-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  /* Steps: 1 col */
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .steps-grid::before {
+    /* vertical connector on mobile */
+    top: 4.5rem;
+    bottom: 4.5rem;
+    left: calc(50% - 1px);
+    right: auto;
+    width: 2px;
+    height: auto;
+    background: linear-gradient(180deg, var(--color-teal-600), var(--color-amber-500));
+  }
+
+  /* Audience: 1 col */
+  .audience-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .audience-card {
+    padding: var(--space-7) var(--space-5);
+  }
+
+  /* Features: 1 col mobile, 2 col tablet */
+  .features-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+
+  /* Safety: 1 col */
+  .safety-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  /* Plans: 1 col */
+  .plans-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .plan-card--featured {
+    transform: none;
+    order: -1;
+  }
+
+  /* Team: 2 col grid */
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  /* FAQ: 1 col */
+  .faq-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  /* Footer: 1 col */
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  /* Contact section */
+  .contact-section {
+    padding-block: 4rem;
+  }
+
+  .contact-inner h2 {
+    font-size: var(--text-h2);
+  }
+}
+
+/* ─────────────────────────────────────────────
+   TABLET only: 768px – 1023px
+   ───────────────────────────────────────────── */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  /* Header: hide nav labels, show hamburger */
+  .site-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Hero: 1 col stacked (mockup goes below) */
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+  }
+
+  .dashboard-mockup {
+    justify-self: center;
+    max-width: 480px;
+  }
+
+  /* Why: 1 col */
+  .why-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+  }
+
+  /* Steps: still 3 col but narrower */
+  .steps-grid {
+    gap: var(--space-4);
+  }
+
+  /* Audience: stacked */
+  .audience-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  /* Features: 2 col */
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Safety: 1 col */
+  .safety-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  /* Plans: 1 col on tablet */
+  .plans-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  .plan-card--featured {
+    transform: none;
+  }
+
+  /* Team: 3 col */
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Footer: 2 col */
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   DESKTOP: 1024px+
+   ───────────────────────────────────────────── */
+@media (min-width: 64em) {
+  /* Features: 3 col */
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Team: 5 col */
+  .team-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  /* Plans: 3 col */
+  .plans-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* FAQ: 2 col layout */
+  .faq-inner {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  /* Footer: brand + nav + lang */
+  .footer-inner {
+    grid-template-columns: 1fr auto auto;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Prevent horizontal overflow globally
+   ───────────────────────────────────────────── */
+body {
+  overflow-x: hidden;
+}
+
+/* ─────────────────────────────────────────────
+   Ensure touch targets are 44×44 px minimum
+   ───────────────────────────────────────────── */
+.lang-btn,
+.menu-toggle,
+.faq-question {
+  min-height: 44px;
+}
+
+.site-nav a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}

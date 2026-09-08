@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
+
+  <!-- SEO -->
+  <title>VitalTrek | Offline-ready safety for adventure tours</title>
+  <meta name="description"
+    content="VitalTrek helps adventure tour operators monitor remote expeditions through checkpoint synchronization, early alerts, and offline route information." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="VitalTrek | Offline-ready safety for adventure tours" />
+  <meta property="og:description"
+    content="Monitor remote expeditions, synchronize telemetry at checkpoints, and act on early alerts — even beyond the signal." />
+  <meta property="og:image" content="assets/images/brand/vitaltrek-logo.jpeg" />
+  <meta property="og:url" content="https://vitaltrek.pe" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/brand/vitaltrek-mark.jpeg" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "VitalTrek",
+    "description": "Platform for monitoring adventure tour expeditions through checkpoint synchronization and early warning alerts.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "PEN",
+      "price": "99"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "Nexum Devs",
+      "url": "https://vitaltrek.pe"
+    }
+  }
+  </script>
+</head>
+
+<body id="top">
+
+  <!-- ════════════════════════════════════════════
+       HEADER
+       ════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#home" class="header-logo" aria-label="VitalTrek — home">
+        <img src="assets/images/brand/vitaltrek-logo.jpeg" alt="VitalTrek" width="160" height="32" />
+      </a>
+
+      <!-- Primary nav (desktop) -->
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#how-it-works" data-i18n="navHowItWorks">How it works</a>
+        <a href="#for-operators" data-i18n="navOperators">For operators</a>
+        <a href="#safety" data-i18n="navSafety">Safety</a>
+        <a href="#plans" data-i18n="navPlans">Plans</a>
+      </nav>
+
+      <!-- Header actions -->
+      <div class="header-actions">
+        <!-- Language toggle -->
+        <div class="lang-toggle" role="group" aria-label="Select language" data-i18n-aria-label="langToggleLabel">
+          <button class="lang-btn is-active" data-lang="en" aria-pressed="true" data-i18n="langEN">EN</button>
+          <button class="lang-btn" data-lang="es" aria-pressed="false" data-i18n="langES">ES</button>
+        </div>
+
+        <!-- CTA button -->
+        <a href="#contact" class="btn btn--primary-light" data-i18n="navRequestDemo">Request a demo</a>
+
+        <!-- Hamburger -->
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav"
+          aria-label="Open navigation menu" data-i18n-aria-label="menuOpenLabel">
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav drawer -->
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#how-it-works" data-i18n="navHowItWorks">How it works</a>
+    <a href="#for-operators" data-i18n="navOperators">For operators</a>
+    <a href="#safety" data-i18n="navSafety">Safety</a>
+    <a href="#plans" data-i18n="navPlans">Plans</a>
+    <a href="#contact" class="btn btn--primary-light" data-i18n="navRequestDemo">Request a demo</a>
+    <div class="lang-toggle" role="group" aria-label="Select language">
+      <button class="lang-btn is-active" data-lang="en" aria-pressed="true" data-i18n="langEN">EN</button>
+      <button class="lang-btn" data-lang="es" aria-pressed="false" data-i18n="langES">ES</button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ════════════════════════════════════════════
+         HERO
+         ════════════════════════════════════════════ -->
+    <section id="home" class="hero-section" aria-labelledby="hero-h1">
+      <div class="hero-topo" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <!-- Content column -->
+        <div class="hero-content">
+          <span class="eyebrow eyebrow--teal" data-i18n="heroEyebrow">OFFLINE-READY ADVENTURE SAFETY</span>
+
+          <h1 id="hero-h1" class="display-h1" data-i18n="heroH1">
+            Know what happens beyond the signal.
+          </h1>
+
+          <p class="lead lead--light" data-i18n="heroLead">
+            VitalTrek helps adventure tour operators monitor expedition progress, synchronize field telemetry at
+            checkpoints, and act on early alerts—even on remote routes.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn--primary-dark btn--hero" data-i18n="heroCTAPrimary">Request a demo</a>
+            <a href="#how-it-works" class="btn btn--secondary-dark btn--hero" data-i18n="heroCTASecondary">See how it
+              works</a>
+          </div>
+
+          <div class="hero-microproof">
+            <span class="dot" aria-hidden="true"></span>
+            <span data-i18n="heroMicroproof">Built for remote routes in Peru</span>
+          </div>
+        </div>
+
+        <!-- Dashboard mockup -->
+        <div class="dashboard-mockup" role="img" aria-label="Operations dashboard demo — demo data only">
+
+          <div class="mockup-header">
+            <div>
+              <div class="mockup-title" data-i18n="mockupTitle">Operations Dashboard</div>
+              <div class="mockup-title">
+                <span data-i18n="mockupRoute">Salkantay · Expedition 04</span>
+              </div>
+            </div>
+            <span class="demo-badge" data-i18n="demoBadge">Demo data</span>
+          </div>
+
+          <!-- Mini abstract route map -->
+          <div class="mockup-map" aria-hidden="true">
+            <svg viewBox="0 0 420 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Route line -->
+              <path d="M20,50 L70,30 L100,38 L140,10 L180,28 L220,18 L260,35 L300,20 L340,30 L400,15" stroke="#1C7C7D"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" />
+              <!-- Checkpoints -->
+              <circle cx="70" cy="30" r="5" fill="#27835C" stroke="#0B3025" stroke-width="1.5" />
+              <circle cx="140" cy="10" r="5" fill="#27835C" stroke="#0B3025" stroke-width="1.5" />
+              <circle cx="220" cy="18" r="5" fill="#F2A93B" stroke="#0B3025" stroke-width="1.5" />
+              <circle cx="300" cy="20" r="5" fill="#C94B42" stroke="#0B3025" stroke-width="1.5" />
+              <circle cx="400" cy="15" r="5" fill="#52615C" stroke="#0B3025" stroke-width="1.5"
+                stroke-dasharray="3 2" />
+              <!-- Start / end markers -->
+              <circle cx="20" cy="50" r="4" fill="#1C7C7D" />
+              <text x="18" y="58" font-size="7" fill="#52615C" font-family="monospace">START</text>
+              <text x="390" y="10" font-size="7" fill="#52615C" font-family="monospace">END</text>
+            </svg>
+          </div>
+
+          <!-- Expedition groups list -->
+          <div class="group-list" aria-label="Expedition groups status">
+
+            <div class="group-item">
+              <span class="group-indicator group-indicator--ok" aria-hidden="true"></span>
+              <div class="group-info">
+                <div class="group-name" data-i18n="group1Name">Group A — 6 members</div>
+                <div class="group-meta" data-i18n="group1Meta">CP 3/5 · On schedule</div>
+              </div>
+              <div class="checkpoint-progress" aria-hidden="true">
+                <div class="checkpoint-bar">
+                  <div class="checkpoint-fill" style="width: 60%"></div>
+                </div>
+                <span class="checkpoint-label">3/5</span>
+              </div>
+            </div>
+
+            <div class="group-item">
+              <span class="group-indicator group-indicator--warning" aria-hidden="true"></span>
+              <div class="group-info">
+                <div class="group-name" data-i18n="group2Name">Group B — 4 members</div>
+                <div class="group-meta" data-i18n="group2Meta">CP 2/5 · Delay detected</div>
+              </div>
+              <div class="checkpoint-progress" aria-hidden="true">
+                <div class="checkpoint-bar">
+                  <div class="checkpoint-fill checkpoint-fill--warning" style="width: 40%"></div>
+                </div>
+                <span class="checkpoint-label">2/5</span>
+              </div>
+            </div>
+
+            <div class="group-item">
+              <span class="group-indicator group-indicator--danger" aria-hidden="true"></span>
+              <div class="group-info">
+                <div class="group-name" data-i18n="group3Name">Group C — 8 members</div>
+                <div class="group-meta" data-i18n="group3Meta">CP 1/5 · Anomaly flag</div>
+              </div>
+              <div class="checkpoint-progress" aria-hidden="true">
+                <div class="checkpoint-bar">
+                  <div class="checkpoint-fill checkpoint-fill--warning" style="width: 20%"></div>
+                </div>
+                <span class="checkpoint-label">1/5</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Alerts -->
+          <div class="alert-list" role="list" aria-label="Active alerts">
+
+            <div class="alert-item alert-item--amber" role="listitem">
+              <div class="alert-icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A93B" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                  <line x1="12" y1="9" x2="12" y2="13" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" />
+                </svg>
+              </div>
+              <div class="alert-text">
+                <div class="alert-label" data-i18n="alertDelayLabel">DELAY</div>
+                <div class="alert-msg" data-i18n="alertDelayMsg">Group B: Expected at CP3 by 14:20 — last sync 52 min
+                  ago.</div>
+              </div>
+              <span class="alert-time" aria-hidden="true">14:20</span>
+            </div>
+
+            <div class="alert-item alert-item--danger" role="listitem">
+              <div class="alert-icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C94B42" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="12" y1="8" x2="12" y2="12" />
+                  <line x1="12" y1="16" x2="12.01" y2="16" />
+                </svg>
+              </div>
+              <div class="alert-text">
+                <div class="alert-label" data-i18n="alertAnomalyLabel">ANOMALY</div>
+                <div class="alert-msg" data-i18n="alertAnomalyMsg">Group C: Physiological anomaly flagged at last
+                  checkpoint sync.</div>
+              </div>
+              <span class="alert-time" aria-hidden="true">13:47</span>
+            </div>
+
+          </div>
+        </div><!-- /dashboard-mockup -->
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         TRUST STRIP
+         ════════════════════════════════════════════ -->
+    <section class="trust-section" aria-label="Key metrics">
+      <div class="container">
+        <div class="trust-inner">
+
+          <article class="trust-card reveal">
+            <div class="trust-metric" data-i18n="trust1Metric">95%</div>
+            <div class="trust-label" data-i18n="trust1Label">Target checkpoint registration</div>
+          </article>
+
+          <article class="trust-card reveal">
+            <div class="trust-metric" data-i18n="trust2Metric">40%</div>
+            <div class="trust-label" data-i18n="trust2Label">Faster anomaly detection target</div>
+          </article>
+
+          <article class="trust-card reveal">
+            <div class="trust-metric" style="color: var(--color-forest-900);" data-i18n="trust3Metric">Offline</div>
+            <div class="trust-label" data-i18n="trust3Label">Offline-first field operation</div>
+          </article>
+
+        </div>
+        <p class="trust-note" data-i18n="trustNote">
+          MVP targets based on VitalTrek research and validation goals.
+        </p>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         WHY VITALTREK
+         ════════════════════════════════════════════ -->
+    <section id="why-vitaltrek" class="section why-section" aria-labelledby="why-h2">
+      <div class="container why-inner">
+
+        <!-- Problem column -->
+        <div class="why-problem reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="whyEyebrow">WHY VITALTREK</span>
+          <h2 id="why-h2" class="section-h2" data-i18n="whyH2">
+            The problem with remote expedition monitoring
+          </h2>
+
+          <div class="pain-points">
+            <!-- Pain point 1 -->
+            <div class="pain-point">
+              <div class="pain-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C94B42" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="1" y1="1" x2="23" y2="23" />
+                  <path d="M16.72 11.06A10.94 10.94 0 0119 12.55" />
+                  <path d="M5 12.55a10.94 10.94 0 015.17-2.39" />
+                  <path d="M10.71 5.05A16 16 0 0122.56 9" />
+                  <path d="M1.42 9a15.91 15.91 0 014.7-2.88" />
+                  <path d="M8.53 16.11a6 6 0 016.95 0" />
+                  <circle cx="12" cy="20" r="1" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="painTitle1">No continuous signal</h3>
+                <p data-i18n="painDesc1">Remote routes in the Andes have little to no cellular coverage. Traditional
+                  communication fails when operators need it most.</p>
+              </div>
+            </div>
+
+            <!-- Pain point 2 -->
+            <div class="pain-point">
+              <div class="pain-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C94B42" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="painTitle2">Delayed incident awareness</h3>
+                <p data-i18n="painDesc2">Relying on WhatsApp, phone calls, and manual check-ins means incidents may go
+                  unnoticed for hours.</p>
+              </div>
+            </div>
+
+            <!-- Pain point 3 -->
+            <div class="pain-point">
+              <div class="pain-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C94B42" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="painTitle3">Fragmented field information</h3>
+                <p data-i18n="painDesc3">Guides and operators work from different tools with no shared view of group
+                  status, route progress, or active alerts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solution column -->
+        <div class="why-solution reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="solutionEyebrow">THE VITALTREK APPROACH</span>
+          <h3 class="section-h3" data-i18n="solutionTitle">Checkpoint-based visibility for remote routes</h3>
+          <p class="lead" data-i18n="solutionLead">VitalTrek replaces disconnected workflows with a unified operations
+            platform designed for low-connectivity environments.</p>
+
+          <div class="solution-points">
+            <!-- Solution 1 -->
+            <div class="solution-point">
+              <div class="solution-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7C7D" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                </svg>
+              </div>
+              <div>
+                <h4 data-i18n="solutionPoint1Title">Checkpoint synchronization</h4>
+                <p data-i18n="solutionPoint1Desc">Wearables accumulate telemetry offline and push updates in bursts when
+                  passing Bluetooth checkpoints.</p>
+              </div>
+            </div>
+
+            <!-- Solution 2 -->
+            <div class="solution-point">
+              <div class="solution-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7C7D" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                  <line x1="12" y1="9" x2="12" y2="13" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" />
+                </svg>
+              </div>
+              <div>
+                <h4 data-i18n="solutionPoint2Title">Prioritized early warning alerts</h4>
+                <p data-i18n="solutionPoint2Desc">The dashboard surfaces Delays, Route Deviations, and physiological
+                  anomalies so operators can respond quickly.</p>
+              </div>
+            </div>
+
+            <!-- Solution 3 -->
+            <div class="solution-point">
+              <div class="solution-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C7C7D" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="7" height="7" />
+                  <rect x="14" y="3" width="7" height="7" />
+                  <rect x="14" y="14" width="7" height="7" />
+                  <rect x="3" y="14" width="7" height="7" />
+                </svg>
+              </div>
+              <div>
+                <h4 data-i18n="solutionPoint3Title">Unified operations dashboard</h4>
+                <p data-i18n="solutionPoint3Desc">Tour Operators and Field Guides share a single view of all Expedition
+                  Groups, check-in records, and active incidents.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         HOW IT WORKS
+         ════════════════════════════════════════════ -->
+    <section id="how-it-works" class="section how-section" aria-labelledby="how-h2">
+      <div class="container">
+        <div class="how-inner">
+          <header class="how-header">
+            <span class="eyebrow eyebrow--teal" data-i18n="howEyebrow">HOW IT WORKS</span>
+            <h2 id="how-h2" class="section-h2" data-i18n="howH2">Three steps to safer expeditions</h2>
+            <p data-i18n="howLead">VitalTrek fits into your existing operations without requiring permanent cellular
+              coverage.</p>
+          </header>
+
+          <div class="steps-grid" aria-label="How VitalTrek works">
+
+            <article class="step-card reveal">
+              <div class="step-number" aria-hidden="true">1</div>
+              <h3 data-i18n="step1Title">Configure the route</h3>
+              <p data-i18n="step1Desc">The Operations Administrator defines the Route, places Checkpoints, assigns
+                Expedition Groups, and sets expected time windows.</p>
+            </article>
+
+            <article class="step-card reveal">
+              <div class="step-number" aria-hidden="true">2</div>
+              <h3 data-i18n="step2Title">Synchronize in the field</h3>
+              <p data-i18n="step2Desc">The wearable device records location and vitals offline. When a group member
+                passes a Checkpoint, accumulated telemetry syncs in a burst to the platform.</p>
+            </article>
+
+            <article class="step-card reveal">
+              <div class="step-number" aria-hidden="true">3</div>
+              <h3 data-i18n="step3Title">Act early</h3>
+              <p data-i18n="step3Desc">The dashboard prioritizes Early Warning Alerts for Delays, Route Deviations, and
+                possible anomalies. The Field Guide and operator respond before incidents escalate.</p>
+            </article>
+
+          </div>
+
+          <div class="how-note" role="note">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="16" x2="12" y2="12" />
+              <line x1="12" y1="8" x2="12.01" y2="8" />
+            </svg>
+            <p data-i18n="howNote">VitalTrek supports periodic checkpoint synchronization; it does not depend on
+              permanent cellular tracking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         FOR OPERATORS / TOURISTS
+         ════════════════════════════════════════════ -->
+    <section id="for-operators" class="section for-operators-section" aria-labelledby="for-h2">
+      <div class="container">
+        <header class="for-header reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="forEyebrow">WHO IT'S FOR</span>
+          <h2 id="for-h2" class="section-h2" data-i18n="forH2">Built for every role in the field</h2>
+          <p class="lead" data-i18n="forLead">Whether you manage operations from an office or guide groups through the
+            mountains, VitalTrek adapts to your role.</p>
+        </header>
+
+        <div class="audience-grid">
+
+          <!-- Tour Operators -->
+          <article class="audience-card audience-card--operator reveal">
+            <div class="audience-icon audience-icon--operator" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                <path d="M16 3.13a4 4 0 010 7.75" />
+              </svg>
+            </div>
+            <h3 data-i18n="operatorCardTitle">For Tour Operators</h3>
+            <p data-i18n="operatorCardDesc">Control your operations, reduce uncertainty, and respond faster when
+              something changes in the field.</p>
+            <ul class="audience-benefits" aria-label="Operator benefits">
+              <li class="benefit-item">
+                <svg class="benefit-check" viewBox="0 0 20 20" fill="none" stroke="#27835C" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 10 8 14 16 6" />
+                </svg>
+                <span data-i18n="operatorBenefit1">Configure Routes and Checkpoints per expedition</span>
+              </li>
+              <li class="benefit-item">
+                <svg class="benefit-check" viewBox="0 0 20 20" fill="none" stroke="#27835C" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 10 8 14 16 6" />
+                </svg>
+                <span data-i18n="operatorBenefit2">Monitor all Expedition Groups from a single dashboard</span>
+              </li>
+              <li class="benefit-item">
+                <svg class="benefit-check" viewBox="0 0 20 20" fill="none" stroke="#27835C" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 10 8 14 16 6" />
+                </svg>
+                <span data-i18n="operatorBenefit3">Receive Early Warning Alerts and track Check-in Records</span>
+              </li>
+            </ul>
+            <a href="#contact" class="text-link" data-i18n="operatorCTA">Contact us
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </article>
+
+          <!-- Adventure Tourists -->
+          <article class="audience-card audience-card--tourist reveal">
+            <div class="audience-icon audience-icon--tourist" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+              </svg>
+            </div>
+            <h3 data-i18n="touristCardTitle">For Adventure Tourists</h3>
+            <p data-i18n="touristCardDesc">Travel with confidence knowing your operator has visibility into your
+              route—even without a signal.</p>
+            <ul class="audience-benefits" aria-label="Tourist benefits">
+              <li class="benefit-item">
+                <svg class="benefit-check" viewBox="0 0 20 20" fill="none" stroke="#1C7C7D" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 10 8 14 16 6" />
+                </svg>
+                <span data-i18n="touristBenefit1">Offline Consultation of route maps and technical Route Notes</span>
+              </li>
+              <li class="benefit-item">
+                <svg class="benefit-check" viewBox="0 0 20 20" fill="none" stroke="#1C7C7D" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 10 8 14 16 6" />
+                </svg>
+                <span data-i18n="touristBenefit2">Review verified checkpoints and time windows before departure</span>
+              </li>
+              <li class="benefit-item">
+                <svg class="benefit-check" viewBox="0 0 20 20" fill="none" stroke="#1C7C7D" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 10 8 14 16 6" />
+                </svg>
+                <span data-i18n="touristBenefit3">Receive a Tour Summary at the end of your expedition</span>
+              </li>
+            </ul>
+            <a href="#contact" class="text-link" data-i18n="touristCTA">Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         FEATURES
+         ════════════════════════════════════════════ -->
+    <section id="features" class="section features-section" aria-labelledby="feat-h2">
+      <div class="container">
+        <header class="features-header reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="featEyebrow">PLATFORM FEATURES</span>
+          <h2 id="feat-h2" class="section-h2" data-i18n="featH2">Everything you need for remote expedition monitoring
+          </h2>
+          <p class="lead" data-i18n="featLead">A focused set of tools designed for operators, guides, and tourists in
+            low-connectivity environments.</p>
+        </header>
+
+        <div class="features-grid">
+
+          <!-- Checkpoint sync -->
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <h3 data-i18n="feat1Title">Checkpoint synchronization</h3>
+            <p data-i18n="feat1Desc">Telemetry is accumulated offline and synced in bursts at Bluetooth checkpoints—no
+              continuous signal required.</p>
+          </article>
+
+          <!-- Early warning alerts -->
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                <line x1="12" y1="9" x2="12" y2="13" />
+                <line x1="12" y1="17" x2="12.01" y2="17" />
+              </svg>
+            </div>
+            <h3 data-i18n="feat2Title">Early Warning Alerts</h3>
+            <p data-i18n="feat2Desc">Automated alerts for Delays, Route Deviations, and physiological anomalies help
+              operators act before incidents escalate.</p>
+          </article>
+
+          <!-- Dashboard -->
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+              </svg>
+            </div>
+            <h3 data-i18n="feat3Title">Expedition dashboard</h3>
+            <p data-i18n="feat3Desc">A real-time operations view showing all active Expedition Groups, their checkpoint
+              progress, and alert status.</p>
+          </article>
+
+          <!-- Offline consultation -->
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+              </svg>
+            </div>
+            <h3 data-i18n="feat4Title">Offline route consultation</h3>
+            <p data-i18n="feat4Desc">Tourists and guides can access route maps, waypoints, and notes locally without an
+              internet connection.</p>
+          </article>
+
+          <!-- Route notes -->
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+              </svg>
+            </div>
+            <h3 data-i18n="feat5Title">Verified Route Notes</h3>
+            <p data-i18n="feat5Desc">Technical route information is loaded and validated only by authorized operators
+              and guides. No open reviews.</p>
+          </article>
+
+          <!-- Tour summaries -->
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
+            </div>
+            <h3 data-i18n="feat6Title">Tour summaries</h3>
+            <p data-i18n="feat6Desc">At the end of each expedition, a summary consolidates Check-in Records, timeline,
+              and incident log for the operator.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         SAFETY & PRIVACY
+         ════════════════════════════════════════════ -->
+    <section id="safety" class="section safety-section" aria-labelledby="safety-h2">
+      <div class="container safety-inner">
+
+        <!-- Content -->
+        <div class="safety-content reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="safetyEyebrow">SAFETY & PRIVACY</span>
+          <h2 id="safety-h2" class="section-h2" data-i18n="safetyH2">Responsible data for outdoor operations</h2>
+          <p class="lead" data-i18n="safetyLead">VitalTrek handles location and biometric telemetry carefully, with
+            clear consent and access policies.</p>
+
+          <div class="safety-points">
+
+            <div class="safety-point">
+              <div class="safety-point-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="safetyPoint1Title">Informed consent</h3>
+                <p data-i18n="safetyPoint1Desc">Tourists are informed that location and physiological data are collected
+                  during the expedition for operational safety purposes.</p>
+              </div>
+            </div>
+
+            <div class="safety-point">
+              <div class="safety-point-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                  <path d="M7 11V7a5 5 0 0110 0v4" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="safetyPoint2Title">Restricted access</h3>
+                <p data-i18n="safetyPoint2Desc">Telemetry data is only accessible to authorized operational staff—Tour
+                  Operator and Field Guide assigned to the group.</p>
+              </div>
+            </div>
+
+            <div class="safety-point">
+              <div class="safety-point-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="safetyPoint3Title">Transparent data retention</h3>
+                <p data-i18n="safetyPoint3Desc">Data is used during the active expedition. Retention policies are
+                  defined by the operator and visible to participants.</p>
+              </div>
+            </div>
+
+            <div class="safety-point">
+              <div class="safety-point-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                  <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+                </svg>
+              </div>
+              <div>
+                <h3 data-i18n="safetyPoint4Title">Operator-managed Route Notes</h3>
+                <p data-i18n="safetyPoint4Desc">Route Notes are exclusively loaded and validated by operators or
+                  authorized guides. There are no open or crowd-sourced reviews.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Data flow visual -->
+        <div class="safety-visual reveal">
+          <h3 data-i18n="safetyVisualTitle">How data moves through VitalTrek</h3>
+          <div class="data-flow">
+
+            <div class="data-flow-item">
+              <span class="data-flow-step" data-i18n="safetyFlow1Step">FIELD</span>
+              <span class="data-flow-desc" data-i18n="safetyFlow1Desc">Wearable records telemetry offline — no constant
+                upload</span>
+            </div>
+
+            <div class="data-flow-item">
+              <span class="data-flow-step" data-i18n="safetyFlow2Step">SYNC</span>
+              <span class="data-flow-desc" data-i18n="safetyFlow2Desc">Burst sync at Bluetooth Checkpoint — authorized
+                relay only</span>
+            </div>
+
+            <div class="data-flow-item">
+              <span class="data-flow-step" data-i18n="safetyFlow3Step">PLATFORM</span>
+              <span class="data-flow-desc" data-i18n="safetyFlow3Desc">Dashboard displays data to assigned operator
+                &amp; guide</span>
+            </div>
+
+            <div class="data-flow-item">
+              <span class="data-flow-step" data-i18n="safetyFlow4Step">TOURIST</span>
+              <span class="data-flow-desc" data-i18n="safetyFlow4Desc">Offline consultation of own route data; Tour
+                Summary post-expedition</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         PLANS
+         ════════════════════════════════════════════ -->
+    <section id="plans" class="section plans-section" aria-labelledby="plans-h2">
+      <div class="container">
+        <header class="plans-header reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="plansEyebrow">PLANS</span>
+          <h2 id="plans-h2" class="section-h2" data-i18n="plansH2">Choose the plan that fits your operation</h2>
+          <p class="lead" data-i18n="plansLead">Simple monthly plans for tour operators. Tourist access is included
+            through the operator's plan.</p>
+        </header>
+
+        <div class="plans-grid">
+
+          <!-- Trail -->
+          <article class="plan-card reveal">
+            <div class="plan-name" data-i18n="plan1Name">Trail</div>
+            <div class="plan-price">
+              <span class="plan-amount" data-i18n="plan1Price">S/ 99</span>
+              <span class="plan-period" data-i18n="plan1Period">/ month</span>
+            </div>
+            <p class="plan-desc" data-i18n="plan1Desc">For agencies starting with digital expedition monitoring.</p>
+            <div class="plan-divider" aria-hidden="true"></div>
+            <ul class="plan-features-list" aria-label="Trail plan features">
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan1F1">Up to 2 active Expedition Groups</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan1F2">Route and Checkpoint configuration</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan1F3">Base operations dashboard</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan1F4">Email support</span>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--primary-light" data-i18n="plan1CTA">Request a demo</a>
+          </article>
+
+          <!-- Operator (featured) -->
+          <article class="plan-card plan-card--featured reveal">
+            <div class="plan-badge" data-i18n="plan2Badge">MOST CHOSEN</div>
+            <div class="plan-name" data-i18n="plan2Name">Operator</div>
+            <div class="plan-price">
+              <span class="plan-amount" data-i18n="plan2Price">S/ 199</span>
+              <span class="plan-period" data-i18n="plan2Period">/ month</span>
+            </div>
+            <p class="plan-desc" data-i18n="plan2Desc">For growing operations that need alerts and full monitoring.</p>
+            <div class="plan-divider" aria-hidden="true"></div>
+            <ul class="plan-features-list" aria-label="Operator plan features">
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan2F1">Up to 8 active Expedition Groups</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan2F2">Early Warning Alerts</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan2F3">Tour Summaries and Route Notes</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan2F4">Priority support</span>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--primary-dark" data-i18n="plan2CTA">Request a demo</a>
+          </article>
+
+          <!-- Expedition -->
+          <article class="plan-card reveal">
+            <div class="plan-name" data-i18n="plan3Name">Expedition</div>
+            <div class="plan-price">
+              <span class="plan-amount" data-i18n="plan3Price">S/ 299</span>
+              <span class="plan-period" data-i18n="plan3Period">/ month</span>
+            </div>
+            <p class="plan-desc" data-i18n="plan3Desc">For high-volume operators managing large-scale expeditions.</p>
+            <div class="plan-divider" aria-hidden="true"></div>
+            <ul class="plan-features-list" aria-label="Expedition plan features">
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan3F1">Up to 20 active Expedition Groups</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan3F2">Advanced route configuration</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan3F3">Full operational history</span>
+              </li>
+              <li class="plan-feature">
+                <svg class="plan-check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span data-i18n="plan3F4">Remote onboarding included</span>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--primary-light" data-i18n="plan3CTA">Request a demo</a>
+          </article>
+
+        </div>
+
+        <p class="plans-note">
+          <strong data-i18n="touristIncluded">Tourist access is included through the operator's plan.</strong><br />
+          <span data-i18n="plansNote">Prices shown for the academic MVP demonstration. No payment is processed on this
+            site.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         TEAM
+         ════════════════════════════════════════════ -->
+    <section id="team" class="section team-section" aria-labelledby="team-h2">
+      <div class="container">
+        <header class="team-header reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="teamEyebrow">THE TEAM</span>
+          <h2 id="team-h2" class="section-h2" data-i18n="teamH2">Nexum Devs</h2>
+          <p class="lead" data-i18n="teamLead">Nexum Devs builds technology for safer adventure tourism in Peru.</p>
+        </header>
+
+        <div class="team-grid">
+
+          <article class="team-card reveal">
+            <div class="team-avatar" aria-hidden="true">MC</div>
+            <div class="team-name" data-i18n="member1Name">Milenko Cayanchi</div>
+            <div class="team-role" data-i18n="member1Role">Software Engineering</div>
+          </article>
+
+          <article class="team-card reveal">
+            <div class="team-avatar" aria-hidden="true">JL</div>
+            <div class="team-name" data-i18n="member2Name">Jorge León</div>
+            <div class="team-role" data-i18n="member2Role">Software Engineering</div>
+          </article>
+
+          <article class="team-card reveal">
+            <div class="team-avatar" aria-hidden="true" style="background-color: var(--color-teal-700);">AM</div>
+            <div class="team-name" data-i18n="member3Name">Ariel Mendoza</div>
+            <div class="team-role" data-i18n="member3Role">Backend &amp; Data Integration</div>
+          </article>
+
+          <article class="team-card reveal">
+            <div class="team-avatar" aria-hidden="true" style="background-color: var(--color-forest-800);">MR</div>
+            <div class="team-name" data-i18n="member4Name">Miler Rodriguez</div>
+            <div class="team-role" data-i18n="member4Role">Web Development</div>
+          </article>
+
+          <article class="team-card reveal">
+            <div class="team-avatar" aria-hidden="true"
+              style="background-color: var(--color-amber-700); color: var(--color-charcoal);">DH</div>
+            <div class="team-name" data-i18n="member5Name">Diego Herrera</div>
+            <div class="team-role" data-i18n="member5Role">Product Design</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         FAQ
+         ════════════════════════════════════════════ -->
+    <section id="faq" class="section faq-section" aria-labelledby="faq-h2">
+      <div class="container faq-inner">
+
+        <!-- Intro -->
+        <div class="faq-intro reveal">
+          <span class="eyebrow eyebrow--teal" data-i18n="faqEyebrow">FAQ</span>
+          <h2 id="faq-h2" class="section-h2" data-i18n="faqH2">Common questions</h2>
+          <p class="lead" data-i18n="faqLead">Answers to the most frequent questions about how VitalTrek works.</p>
+        </div>
+
+        <!-- Accordion -->
+        <div class="faq-list reveal" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+              <span data-i18n="faq1Q">Does VitalTrek require continuous cell coverage?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1" data-i18n="faq1A">
+              No. VitalTrek is designed for offline-first operation. The wearable device records telemetry locally and
+              synchronizes data in bursts when passing a Bluetooth Checkpoint. Continuous cellular coverage is not
+              required.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+              <span data-i18n="faq2Q">Is VitalTrek a live GPS tracker?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2" data-i18n="faq2A">
+              No. VitalTrek does not provide permanent, continuous GPS tracking. Location visibility is updated when the
+              device syncs at a Checkpoint. We describe this as checkpoint-based updates or periodic synchronization to
+              be accurate about how the system works.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+              <span data-i18n="faq3Q">Who can add Route Notes?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3" data-i18n="faq3A">
+              Only authorized operators and field guides can load and validate Route Notes. There are no open reviews or
+              crowd-sourced contributions. This ensures the information tourists consult offline is accurate and
+              operationally vetted.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+              <span data-i18n="faq4Q">Does VitalTrek replace emergency services?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4" data-i18n="faq4A">
+              No. VitalTrek provides Early Warning Alerts to support human decision-making. It is not a substitute for
+              emergency services, rescue protocols, or certified safety personnel. Operators must maintain their own
+              emergency response plans.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+              <span data-i18n="faq5Q">Is the wearable hardware part of this MVP?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5" data-i18n="faq5A">
+              The MVP presents a functional simulation of the IoT ecosystem. The wearable device and Bluetooth
+              checkpoints are represented as a simulated environment for academic demonstration. No physical hardware is
+              sold or required at this stage.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         CONTACT / CTA FINAL
+         ════════════════════════════════════════════ -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-h2">
+      <div class="container contact-inner">
+        <span class="eyebrow eyebrow--amber" data-i18n="contactEyebrow">GET IN TOUCH</span>
+        <h2 id="contact-h2" data-i18n="contactH2">Make every remote route more visible.</h2>
+        <p data-i18n="contactLead">Interested in VitalTrek for your tour operation? Reach out and we'll walk you through
+          a demonstration.</p>
+        <a href="mailto:hello@vitaltrek.pe" class="btn btn--primary-dark btn--hero" data-i18n="contactCTA">Request a
+          demo</a>
+        <div>
+          <p style="font-size: 0.875rem; color: rgba(217,226,220,0.55); margin-bottom: 0.5rem;"
+            data-i18n="contactEmailLabel">Or email us directly</p>
+          <a href="mailto:hello@vitaltrek.pe" class="contact-email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            hello@vitaltrek.pe
+          </a>
+        </div>
+        <p class="contact-note" data-i18n="contactNote">Academic MVP — contact channel for demonstration purposes.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <a href="#home" aria-label="VitalTrek — back to top">
+          <img src="assets/images/brand/vitaltrek-logo.jpeg" alt="VitalTrek" width="140" height="28" loading="lazy" />
+        </a>
+        <p class="footer-tagline" data-i18n="footerTagline">Checkpoint-based safety for remote adventure tours.</p>
+        <p class="footer-copyright">
+          <span data-i18n="footerCopyright">© 2026 Nexum Devs. VitalTrek academic MVP.</span>
+        </p>
+      </div>
+
+      <!-- Nav links -->
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <span class="footer-nav-title" data-i18n="footerNavTitle">Navigate</span>
+        <a href="#how-it-works" data-i18n="footerHowItWorks">How it works</a>
+        <a href="#safety" data-i18n="footerSafety">Safety</a>
+        <a href="#plans" data-i18n="footerPlans">Plans</a>
+        <a href="#contact" data-i18n="footerContact">Contact</a>
+      </nav>
+
+      <!-- Legal links (disabled — pages not yet created) -->
+      <nav class="footer-nav" aria-label="Legal">
+        <span class="footer-nav-title" data-i18n="footerLegalTitle">Legal</span>
+        <a href="#top" aria-disabled="true" tabindex="-1" data-i18n="footerTerms">Terms</a>
+        <a href="#top" aria-disabled="true" tabindex="-1" data-i18n="footerPrivacy">Privacy</a>
+        <!-- Language toggle in footer -->
+        <div class="footer-lang" style="margin-top: 1rem;">
+          <span class="footer-lang-title" data-i18n="footerLangTitle">Language</span>
+          <div class="lang-toggle lang-toggle--dark" role="group" aria-label="Select language">
+            <button class="lang-btn is-active" data-lang="en" aria-pressed="true" data-i18n="langEN">EN</button>
+            <button class="lang-btn" data-lang="es" aria-pressed="false" data-i18n="langES">ES</button>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </footer>
+
+  <!-- Scripts — i18n must load before main -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
