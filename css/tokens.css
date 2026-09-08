@@ -1,0 +1,87 @@
+/* ============================================================
+   tokens.css — VitalTrek Design System
+   All CSS custom properties: color, type, spacing, shadows
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+
+:root {
+  /* ── Color palette ── */
+  --color-forest-950: #0B3025;
+  --color-forest-900: #0F3D2E;
+  --color-forest-800: #15513E;
+  --color-teal-700: #145E60;
+  --color-teal-600: #1C7C7D;
+  --color-amber-700: #B96B08;
+  --color-amber-500: #F2A93B;
+  --color-amber-100: #FFF0D3;
+  --color-off-white: #F7F4EA;
+  --color-white: #FFFFFF;
+  --color-charcoal: #1E2423;
+  --color-slate: #52615C;
+  --color-mist: #D9E2DC;
+  --color-success: #27835C;
+  --color-danger: #C94B42;
+
+  /* ── Typography ── */
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* Font sizes — desktop */
+  --text-display: 4rem;       /* 64px */
+  --text-h2: 2.75rem;         /* 44px */
+  --text-h3: 1.75rem;         /* 28px */
+  --text-lead: 1.25rem;       /* 20px */
+  --text-body: 1rem;          /* 16px */
+  --text-ui: 0.9375rem;       /* 15px */
+  --text-eyebrow: 0.75rem;    /* 12px */
+
+  /* Line heights */
+  --lh-display: 1.05;
+  --lh-h2: 1.18;
+  --lh-h3: 1.28;
+  --lh-lead: 1.5;
+  --lh-body: 1.625;
+  --lh-ui: 1.333;
+
+  /* Letter spacing */
+  --ls-display: -0.03em;
+  --ls-h2: -0.02em;
+  --ls-eyebrow: 0.1em;
+
+  /* ── Spacing (8px system) ── */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-7: 1.75rem;   /* 28px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-30: 7.5rem;   /* 120px */
+
+  /* ── Layout ── */
+  --container-max: 75rem;     /* 1200px */
+  --gutter: 4rem;             /* 64px */
+  --header-height: 4.5rem;    /* 72px */
+  --section-gap: 7.5rem;      /* 120px */
+
+  /* ── Borders & radius ── */
+  --radius-card: 0.75rem;     /* 12px */
+  --radius-btn: 0.625rem;     /* 10px */
+  --radius-badge: 999px;
+
+  /* ── Shadows ── */
+  --shadow-card: 0 12px 32px rgba(15, 61, 46, 0.10);
+  --shadow-header: 0 1px 0 var(--color-mist);
+
+  /* ── Transitions ── */
+  --transition-fast: 180ms ease;
+  --transition-med: 300ms ease;
+}
