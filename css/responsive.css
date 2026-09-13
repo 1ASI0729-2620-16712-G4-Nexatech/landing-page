@@ -311,3 +311,7 @@ body {
   display: inline-flex;
   align-items: center;
 }
+
+#mobile-nav .btn {
+  color: #F7F4EA !important;
+}

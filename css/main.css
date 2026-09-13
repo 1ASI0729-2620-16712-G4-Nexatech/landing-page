@@ -241,7 +241,7 @@ h1, h2, h3 {
 }
 
 .header-logo img {
-  height: 32px;
+  height: 60px;
   width: auto;
 }
 
@@ -884,18 +884,19 @@ h1, h2, h3 {
   gap: var(--space-6);
   width: 100%;
   position: relative;
+  z-index: 1;
 }
 
 /* Connector line between steps */
 .steps-grid::before {
   content: '';
   position: absolute;
-  top: 2.25rem;
-  left: calc(16.67% + var(--space-6));
-  right: calc(16.67% + var(--space-6));
+  top: 63px;
+  left: 15%;
+  right: 15%;
   height: 2px;
-  background: linear-gradient(90deg, var(--color-teal-600), var(--color-amber-500));
-  pointer-events: none;
+  background: linear-gradient(to right, #1C7C7D, #F2A93B);
+
 }
 
 .step-card {
