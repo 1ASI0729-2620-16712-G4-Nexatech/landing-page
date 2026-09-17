@@ -12,6 +12,28 @@ body {
   background-color: var(--color-off-white);
 }
 
+/* — Skip link (a11y) — */
+.skip-link {
+   position: absolute;
+   left: -9999px;
+   top: 0;
+   z-index: 999;
+   padding: 0.75rem 1.25rem;
+   background-color: var(--color-forest-900);
+   color: var(--color-off-white);
+   font-family: var(--font-body);
+   font-size: var(--text-ui);
+   font-weight: 600;
+   text-decoration: none;
+   border-radius: 0 0 var(--radius-btn) 0;
+}
+
+.skip-link:focus {
+   left: 0;
+   outline: 3px solid var(--color-amber-500);
+   outline-offset: 2px;
+}
+
 /* ── Container ── */
 .container {
   width: 100%;

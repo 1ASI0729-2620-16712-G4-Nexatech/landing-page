@@ -23,8 +23,8 @@ landing-page/
 ├── assets/
 │   ├── images/
 │   │   ├── brand/
-│   │   │   ├── vitaltrek-logo.svg   ← Logo con wordmark (placeholder — reemplazar)
-│   │   │   └── vitaltrek-mark.svg   ← Solo ícono (para favicon — reemplazar)
+│   │   │   ├── vitaltrek-logo.png   ← Logo con wordmark (placeholder — reemplazar)
+│   │   │   └── vitaltrek-mark.png   ← Solo ícono (para favicon — reemplazar)
 │   │   └── placeholders/            ← Imágenes de reemplazo futuras
 │   └── icons/                       ← Íconos SVG adicionales futuros
 ├── css/
@@ -41,14 +41,14 @@ landing-page/
 
 ## Reemplazar el logo
 
-Los archivos `assets/images/brand/vitaltrek-logo.svg` y `vitaltrek-mark.svg` son **marcadores de posición** generados automáticamente.
+Los archivos `assets/images/brand/vitaltrek-logo.png` y `vitaltrek-mark.png` son **marcadores de posición** generados automáticamente.
 
 Para reemplazarlos con el logo final:
 
-1. Exporta tu logo en formato SVG desde Figma / Illustrator.
-2. Nombra el archivo `vitaltrek-logo.svg` (con wordmark) y `vitaltrek-mark.svg` (solo ícono).
+1. Exporta tu logo en formato PNG desde Figma / Illustrator.
+2. Nombra el archivo `vitaltrek-logo.png` (con wordmark) y `vitaltrek-mark.png` (solo ícono).
 3. Cópialos a `assets/images/brand/`, sobreescribiendo los existentes.
-4. El `vitaltrek-mark.svg` se usa también como **favicon** (`<link rel="icon">`).
+4. El `vitaltrek-mark.png` se usa también como **favicon** (`<link rel="icon">`).
 
 ---
 

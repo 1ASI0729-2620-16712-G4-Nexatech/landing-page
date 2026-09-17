@@ -15,6 +15,7 @@ const translations = {
       "Monitor remote expeditions, synchronize telemetry at checkpoints, and act on early alerts — even beyond the signal.",
 
     /* ── Header nav ── */
+    skipToContent: "Skip to main content",
     navHowItWorks: "How it works",
     navOperators: "For operators",
     navSafety: "Safety",
@@ -284,6 +285,7 @@ const translations = {
       "Supervisa expediciones remotas, sincroniza telemetría en checkpoints y actúa ante alertas tempranas, incluso sin señal.",
 
     /* ── Header nav ── */
+    skipToContent: "Saltar al contenido principal",
     navHowItWorks: "Cómo funciona",
     navOperators: "Para operadores",
     navSafety: "Seguridad",
