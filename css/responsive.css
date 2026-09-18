@@ -158,6 +158,18 @@
     gap: var(--space-4);
   }
 
+  /* Testimonials: 1 col */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  /* About: 1 col */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
   /* FAQ: 1 col */
   .faq-inner {
     grid-template-columns: 1fr;
@@ -249,6 +261,16 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  /* Testimonials: 2 col */
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* About: 2 col */
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   /* Footer: 2 col */
   .footer-inner {
     grid-template-columns: 1fr 1fr;
@@ -274,6 +296,16 @@
     grid-template-columns: repeat(5, 1fr);
   }
 
+  /* Testimonials: 3 col */
+  .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* About: 3 col */
+  .about-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   /* Plans: 3 col */
   .plans-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -286,7 +318,7 @@
 
   /* Footer: brand + nav + lang */
   .footer-inner {
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1.5fr 1fr 1fr;
   }
 }
 
