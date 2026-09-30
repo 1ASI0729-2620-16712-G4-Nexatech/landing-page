@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In | VitalTrek</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+
+  <div class="login-lang-wrapper" style="position: absolute; top: 1rem; right: 1rem;">
+    <div class="lang-toggle" role="group" aria-label="Select language">
+      <button class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+      <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+    </div>
+  </div>
+
+  <main class="auth-card">
+    <header class="auth-header">
+      <img src="assets/images/brand/vitaltrek-logo.png" alt="VitalTrek Logo" class="auth-logo" />
+      <!-- Etiqueta agregada aquí -->
+      <p class="auth-subtitle" data-i18n="loginSubtitle">High-altitude safety companion & expedition trail portal</p>
+    </header>
+
+    <form id="loginForm">
+      
+      <div class="form-group">
+        <!-- Etiqueta agregada aquí -->
+        <label for="email" class="form-label" data-i18n="loginEmailLabel">Email Address</label>
+        <input type="email" id="email" class="form-input" data-i18="exampleEmail" placeholder="VitalTrek@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <!-- Etiqueta agregada aquí -->
+        <label for="password" class="form-label" data-i18n="loginPasswordLabel">Password</label>
+        <input type="password" id="password" class="form-input" placeholder="••••••••••••" required>
+      </div>
+
+      <button type="submit" class="btn-submit">
+        <!-- Etiqueta agregada aquí -->
+        <span data-i18n="loginBtn">Log in</span>
+        <span>→</span>
+      </button>
+
+    </form>
+    
+    <!-- Etiqueta agregada aquí -->
+    <p class="auth-note" data-i18n="loginNote">Offline safety credentials remain encrypted on device memory. No continuous cell tower connection required.</p>
+  </main>
+
+  <script src="js/login.js"></script>
+
+</body>
+</html>
