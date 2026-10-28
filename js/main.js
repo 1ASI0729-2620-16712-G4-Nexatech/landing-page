@@ -2,11 +2,25 @@
  * main.js — VitalTrek Landing
  * Handles: mobile menu, FAQ accordion, smooth scroll,
  * language toggle, header scroll elevation, reveal animation,
- * copyright year.
+ * copyright year, Web App and social media links.
  */
 
 (function () {
   "use strict";
+
+  /* ── Config — single source of truth for external URLs ── */
+  /* Base URL of the VitalTrek Web Application (no trailing slash).
+     Every element with [data-app-path] links to WEB_APP_URL + data-app-path. */
+  const WEB_APP_URL = "https://web-applications-frsv6ksak-nexatech6.vercel.app";
+
+  /* Official social media profiles. Every element with [data-social]
+     links to SOCIAL_LINKS[data-social]. */
+  const SOCIAL_LINKS = {
+    linkedin: "https://www.linkedin.com/",
+    instagram: "https://www.instagram.com/",
+    facebook: "https://www.facebook.com/",
+    youtube: "https://www.youtube.com/",
+  };
 
   /* ── Helpers ── */
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
@@ -198,6 +212,25 @@
   }
 
   /* ─────────────────────────────────────────────
+     8. WEB APP LINKS
+     ───────────────────────────────────────────── */
+  function initAppLinks() {
+    $$("[data-app-path]").forEach((link) => {
+      link.setAttribute("href", WEB_APP_URL + link.getAttribute("data-app-path"));
+    });
+  }
+
+  /* ─────────────────────────────────────────────
+     9. SOCIAL MEDIA LINKS
+     ───────────────────────────────────────────── */
+  function initSocialLinks() {
+    $$("[data-social]").forEach((link) => {
+      const url = SOCIAL_LINKS[link.getAttribute("data-social")];
+      if (url) link.setAttribute("href", url);
+    });
+  }
+
+  /* ─────────────────────────────────────────────
      INIT — runs after DOM is ready
      ───────────────────────────────────────────── */
   function init() {
@@ -213,6 +246,8 @@
     initLanguageToggle();
     initReveal();
     initCopyrightYear();
+    initAppLinks();
+    initSocialLinks();
   }
 
   if (document.readyState === "loading") {
