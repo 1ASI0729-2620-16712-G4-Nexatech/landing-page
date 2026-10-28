@@ -17,6 +17,7 @@ const translations = {
     /* ── Header nav ── */
     skipToContent: "Skip to main content",
     navHowItWorks: "How it works",
+    navProduct: "Product",
     navOperators: "For operators",
     navFeatures: "Features",
     navSafety: "Safety",
@@ -109,6 +110,19 @@ const translations = {
     howNote:
         "VitalTrek supports periodic checkpoint synchronization; it does not depend on permanent cellular tracking.",
 
+    /* ── Product ── */
+    productEyebrow: "THE PRODUCT",
+    productH2: "See VitalTrek in action",
+    productLead:
+        "A first look at the VitalTrek web application that operators and field guides use to plan routes and follow every expedition group.",
+    productVideoPlaceholder: "Product video coming soon",
+    productShot1Caption: "Operations dashboard",
+    productShot1Alt: "Operations dashboard showing expedition groups, checkpoint progress and active alerts",
+    productShot2Caption: "Route and checkpoint configuration",
+    productShot2Alt: "Route configuration screen with checkpoints placed along a trekking route",
+    productShot3Caption: "Tourist manifest",
+    productShot3Alt: "Tourist manifest listing the members of an expedition group",
+
     /* ── For operators ── */
     forEyebrow: "WHO IT'S FOR",
     forH2: "Built for every role in the field",
@@ -120,14 +134,14 @@ const translations = {
     operatorBenefit1: "Configure Routes and Checkpoints per expedition",
     operatorBenefit2: "Monitor all Expedition Groups from a single dashboard",
     operatorBenefit3: "Receive Early Warning Alerts and track Check-in Records",
-    operatorCTA: "Contact us",
+    operatorCTA: "Open operations workspace",
     touristCardTitle: "For Adventure Tourists",
     touristCardDesc:
         "Travel with confidence knowing your operator has visibility into your route—even without a signal.",
     touristBenefit1: "Offline Consultation of route maps and technical Route Notes",
     touristBenefit2: "Review verified checkpoints and time windows before departure",
     touristBenefit3: "Receive a Tour Summary at the end of your expedition",
-    touristCTA: "Learn more",
+    touristCTA: "Explore VitalTrek",
 
     /* ── Features ── */
     featEyebrow: "PLATFORM FEATURES",
@@ -291,19 +305,29 @@ const translations = {
     contactCTA: "Go to VitalTrek",
     contactEmailLabel: "Or email us directly",
     contactNote: "Academic MVP — contact channel for demonstration purposes.",
+    contactLocation: "Lima, Peru",
+
+    /* ── Social media ── */
+    socialListLabel: "VitalTrek on social media",
+    socialLinkedIn: "VitalTrek on LinkedIn",
+    socialInstagram: "VitalTrek on Instagram",
+    socialFacebook: "VitalTrek on Facebook",
+    socialYouTube: "VitalTrek on YouTube",
 
     /* ── Footer ── */
     footerTagline: "Checkpoint-based safety for remote adventure tours.",
     footerNavTitle: "Navigate",
     footerHowItWorks: "How it works",
+    footerProduct: "Product",
     footerSafety: "Safety",
     footerPlans: "Plans",
     footerContact: "Contact",
     footerLegalTitle: "Legal",
     footerTerms: "Terms",
     footerPrivacy: "Privacy",
-    footerCopyright: "© 2026 Nexum Devs. VitalTrek academic MVP.",
+    footerCopyright: "© 2026 NexaTech. VitalTrek academic MVP.",
     footerLangTitle: "Language",
+    footerSocialTitle: "Follow us",
 
     /* ── Legal pages (terms.html / privacy.html) ── */
     termsMetaTitle: "Terms of Service | VitalTrek",
@@ -418,6 +442,7 @@ const translations = {
     /* ── Header nav ── */
     skipToContent: "Saltar al contenido principal",
     navHowItWorks: "Cómo funciona",
+    navProduct: "Producto",
     navOperators: "Para operadores",
     navFeatures: "Funcionalidades",
     navSafety: "Seguridad",
@@ -510,6 +535,19 @@ const translations = {
     howNote:
         "VitalTrek soporta sincronización periódica en checkpoints; no depende de rastreo celular permanente.",
 
+    /* ── Product ── */
+    productEyebrow: "EL PRODUCTO",
+    productH2: "Conoce VitalTrek en acción",
+    productLead:
+        "Un primer vistazo a la aplicación web de VitalTrek que operadores y guías de campo usan para planificar rutas y seguir a cada grupo de expedición.",
+    productVideoPlaceholder: "Video del producto próximamente",
+    productShot1Caption: "Panel de operaciones",
+    productShot1Alt: "Panel de operaciones con los grupos de expedición, su avance por checkpoints y las alertas activas",
+    productShot2Caption: "Configuración de rutas y checkpoints",
+    productShot2Alt: "Pantalla de configuración de ruta con checkpoints ubicados a lo largo de un recorrido de trekking",
+    productShot3Caption: "Manifiesto de turistas",
+    productShot3Alt: "Manifiesto de turistas con los integrantes de un grupo de expedición",
+
     /* ── For operators ── */
     forEyebrow: "PARA QUIÉN ES",
     forH2: "Diseñado para cada rol en campo",
@@ -521,14 +559,14 @@ const translations = {
     operatorBenefit1: "Configura Rutas y Checkpoints por expedición",
     operatorBenefit2: "Supervisa todos los Grupos de expedición desde un panel único",
     operatorBenefit3: "Recibe Alertas tempranas y da seguimiento a los Check-in Records",
-    operatorCTA: "Contáctanos",
+    operatorCTA: "Abrir espacio de operaciones",
     touristCardTitle: "Para Turistas de Aventura",
     touristCardDesc:
         "Viaja con la tranquilidad de saber que tu operador tiene visibilidad sobre tu ruta, incluso sin señal.",
     touristBenefit1: "Consulta offline de mapas de ruta y Route Notes técnicas",
     touristBenefit2: "Revisa checkpoints verificados y ventanas de tiempo antes de partir",
     touristBenefit3: "Recibe un Resumen de tu expedición al finalizar",
-    touristCTA: "Más información",
+    touristCTA: "Explorar VitalTrek",
 
     /* ── Features ── */
     featEyebrow: "FUNCIONALIDADES",
@@ -682,6 +720,14 @@ const translations = {
     contactCTA: "Ir a VitalTrek",
     contactEmailLabel: "O escríbenos directamente",
     contactNote: "MVP académico — canal de contacto para fines de demostración.",
+    contactLocation: "Lima, Perú",
+
+    /* ── Social media ── */
+    socialListLabel: "VitalTrek en redes sociales",
+    socialLinkedIn: "VitalTrek en LinkedIn",
+    socialInstagram: "VitalTrek en Instagram",
+    socialFacebook: "VitalTrek en Facebook",
+    socialYouTube: "VitalTrek en YouTube",
 
     /* ── About Us ── */
     aboutEyebrow: "SOBRE VITALTREK",
@@ -697,6 +743,7 @@ const translations = {
     footerTagline: "Seguridad por checkpoints para tours de aventura remotos.",
     footerNavTitle: "Navegar",
     footerHowItWorks: "Cómo funciona",
+    footerProduct: "Producto",
     footerSafety: "Seguridad",
     footerPlans: "Planes",
     footerContact: "Contacto",
@@ -705,6 +752,7 @@ const translations = {
     footerPrivacy: "Privacidad",
     footerCopyright: "© 2026 NexaTech. VitalTrek MVP académico.",
     footerLangTitle: "Idioma",
+    footerSocialTitle: "Síguenos",
 
     /* ── Legal pages (terms.html / privacy.html) ── */
     termsMetaTitle: "Términos del Servicio | VitalTrek",
@@ -863,6 +911,14 @@ function setLanguage(lang) {
     const key = el.getAttribute("data-i18n-placeholder");
     if (t[key] !== undefined) {
       el.setAttribute("placeholder", t[key]);
+    }
+  });
+
+  /* Update [data-i18n-alt] */
+  document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-alt");
+    if (t[key] !== undefined) {
+      el.setAttribute("alt", t[key]);
     }
   });
 
