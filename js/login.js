@@ -35,6 +35,12 @@ loginLangBtns.forEach(btn => {
         element.textContent = loginTranslations[selectedLang][translationKey];
       }
     });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+      const translationKey = element.getAttribute('data-i18n-placeholder');
+      if (loginTranslations[selectedLang][translationKey]) {
+        element.setAttribute('placeholder', loginTranslations[selectedLang][translationKey]);
+      }
+    });
   });
 });
 

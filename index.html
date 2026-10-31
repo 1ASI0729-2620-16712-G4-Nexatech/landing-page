@@ -12,12 +12,12 @@
         content="VitalTrek helps adventure tour operators monitor remote expeditions through checkpoint synchronization, early alerts, and offline route information." />
 
   <meta name="keywords" content="adventure tourism safety, trekking monitoring, offline telemetry, checkpoint synchronization, tour operator, Peru" />
-  <meta name="author" content="Nexum Devs" />
+  <meta name="author" content="NexaTech" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://landing-page-phi-one-54.vercel.app/" />
-  <link rel="alternate" hreflang="en-US" href="https://landing-page-phi-one-54.vercel.app/" />
-  <link rel="alternate" hreflang="es-419" href="https://landing-page-phi-one-54.vercel.app/" />
-  <link rel="alternate" hreflang="x-default" href="https://landing-page-phi-one-54.vercel.app/" />
+  <link rel="canonical" href="https://landing-page-mrca1.vercel.app/" />
+  <link rel="alternate" hreflang="en-US" href="https://landing-page-mrca1.vercel.app/" />
+  <link rel="alternate" hreflang="es-419" href="https://landing-page-mrca1.vercel.app/" />
+  <link rel="alternate" hreflang="x-default" href="https://landing-page-mrca1.vercel.app/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -25,7 +25,7 @@
   <meta property="og:description"
         content="Monitor remote expeditions, synchronize telemetry at checkpoints, and act on early alerts — even beyond the signal." />
   <meta property="og:image" content="assets/images/brand/vitaltrek-logo.png" />
-  <meta property="og:url" content="https://landing-page-phi-one-54.vercel.app/" />
+  <meta property="og:url" content="https://landing-page-mrca1.vercel.app/" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:locale:alternate" content="es_419" />
 
@@ -86,6 +86,7 @@
     <!-- Primary nav (desktop) -->
     <nav class="site-nav" aria-label="Primary navigation">
       <a href="#how-it-works" data-i18n="navHowItWorks">How it works</a>
+      <a href="#product" data-i18n="navProduct">Product</a>
       <a href="#for-operators" data-i18n="navOperators">For operators</a>
       <a href="#features" data-i18n="navFeatures">Features</a>
       <a href="#safety" data-i18n="navSafety">Safety</a>
@@ -102,7 +103,8 @@
       </div>
 
       <!-- CTA button -->
-      <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-light" data-i18n="navGetStarted">Get Started</a>
+      <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-light" data-app-path="/"
+         target="_blank" rel="noopener noreferrer" data-i18n="navGetStarted">Get Started</a>
 
       <!-- Hamburger -->
       <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav"
@@ -118,13 +120,15 @@
 <!-- Mobile nav drawer -->
 <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
   <a href="#how-it-works" data-i18n="navHowItWorks">How it works</a>
+  <a href="#product" data-i18n="navProduct">Product</a>
   <a href="#for-operators" data-i18n="navOperators">For operators</a>
   <a href="#features" data-i18n="navFeatures">Features</a>
   <a href="#safety" data-i18n="navSafety">Safety</a>
   <a href="#plans" data-i18n="navPlans">Plans</a>
   <a href="#about" data-i18n="navAbout">About Us</a>
   <a href="#faq" data-i18n="navFAQ">FAQ</a>
-  <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-light" data-i18n="navGetStarted">Get Started</a>
+  <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-light" data-app-path="/"
+     target="_blank" rel="noopener noreferrer" data-i18n="navGetStarted">Get Started</a>
   <div class="lang-toggle" role="group" aria-label="Select language">
     <button class="lang-btn is-active" data-lang="en" aria-pressed="true" data-i18n="langEN">EN</button>
     <button class="lang-btn" data-lang="es" aria-pressed="false" data-i18n="langES">ES</button>
@@ -154,9 +158,9 @@
         </p>
 
         <div class="hero-ctas">
-          <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-dark btn--hero" data-i18n="heroCTAPrimary">Get Started</a>
-          <a href="#how-it-works" class="btn btn--secondary-dark btn--hero" data-i18n="heroCTASecondary">Learn How It Works
-            works</a>
+          <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-dark btn--hero" data-app-path="/"
+             target="_blank" rel="noopener noreferrer" data-i18n="heroCTAPrimary">Get Started</a>
+          <a href="#how-it-works" class="btn btn--secondary-dark btn--hero" data-i18n="heroCTASecondary">Learn How It Works</a>
         </div>
 
         <div class="hero-microproof">
@@ -500,6 +504,77 @@
   </section>
 
   <!-- ════════════════════════════════════════════
+       PRODUCT (video + screenshots)
+       ════════════════════════════════════════════ -->
+  <section id="product" class="section product-section" aria-labelledby="product-h2">
+    <div class="container">
+      <header class="product-header reveal">
+        <span class="eyebrow eyebrow--amber" data-i18n="productEyebrow">THE PRODUCT</span>
+        <h2 id="product-h2" class="section-h2 section-h2--light" data-i18n="productH2">See VitalTrek in action</h2>
+        <p class="lead lead--light" data-i18n="productLead">A first look at the VitalTrek web application that
+          operators and field guides use to plan routes and follow every expedition group.</p>
+      </header>
+
+      <!-- About-the-Product video (16:9) -->
+      <div class="product-video reveal">
+        <!--
+          To publish the video:
+          1. Replace YOUTUBE_VIDEO_ID below with the ID of the YouTube video
+             (the part after "watch?v=", e.g. https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID).
+          2. Uncomment the <iframe>.
+          3. Delete the .product-video-placeholder block below it.
+
+        <iframe class="product-video-frame"
+                src="https://www.youtube-nocookie.com/embed/YOUTUBE_VIDEO_ID"
+                title="VitalTrek — About the Product"
+                loading="lazy"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+        -->
+        <div class="product-video-placeholder">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" />
+            <polygon points="10 8 16 12 10 16 10 8" />
+          </svg>
+          <p data-i18n="productVideoPlaceholder">Product video coming soon</p>
+        </div>
+      </div>
+
+      <!--
+        Web App screenshots. Uncomment this block once these files exist:
+        assets/images/product/operations-dashboard.png
+        assets/images/product/route-configuration.png
+        assets/images/product/tourist-manifest.png
+
+      <div class="product-gallery">
+        <figure class="product-shot reveal">
+          <img src="assets/images/product/operations-dashboard.png" loading="lazy"
+               alt="Operations dashboard showing expedition groups, checkpoint progress and active alerts"
+               data-i18n-alt="productShot1Alt" />
+          <figcaption data-i18n="productShot1Caption">Operations dashboard</figcaption>
+        </figure>
+
+        <figure class="product-shot reveal">
+          <img src="assets/images/product/route-configuration.png" loading="lazy"
+               alt="Route configuration screen with checkpoints placed along a trekking route"
+               data-i18n-alt="productShot2Alt" />
+          <figcaption data-i18n="productShot2Caption">Route and checkpoint configuration</figcaption>
+        </figure>
+
+        <figure class="product-shot reveal">
+          <img src="assets/images/product/tourist-manifest.png" loading="lazy"
+               alt="Tourist manifest listing the members of an expedition group"
+               data-i18n-alt="productShot3Alt" />
+          <figcaption data-i18n="productShot3Caption">Tourist manifest</figcaption>
+        </figure>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
        FOR OPERATORS / TOURISTS
        ════════════════════════════════════════════ -->
   <section id="for-operators" class="section for-operators-section" aria-labelledby="for-h2">
@@ -550,7 +625,9 @@
               <span data-i18n="operatorBenefit3">Receive Early Warning Alerts and track Check-in Records</span>
             </li>
           </ul>
-          <a href="#contact" class="text-link" data-i18n="operatorCTA">Contact us
+          <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/operations" class="text-link" data-app-path="/operations"
+             target="_blank" rel="noopener noreferrer">
+            <span data-i18n="operatorCTA">Open operations workspace</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12" />
@@ -593,7 +670,9 @@
               <span data-i18n="touristBenefit3">Receive a Tour Summary at the end of your expedition</span>
             </li>
           </ul>
-          <a href="#contact" class="text-link" data-i18n="touristCTA">Learn more
+          <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="text-link" data-app-path="/"
+             target="_blank" rel="noopener noreferrer">
+            <span data-i18n="touristCTA">Explore VitalTrek</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12" />
@@ -1234,7 +1313,8 @@
       <h2 id="contact-h2" data-i18n="contactH2">Make every remote route more visible.</h2>
       <p data-i18n="contactLead">Interested in VitalTrek for your tour operation? Reach out and we'll walk you through
         a demonstration.</p>
-      <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-dark btn--hero" data-i18n="contactCTA">Go to VitalTrek</a>
+      <a href="https://web-applications-frsv6ksak-nexatech6.vercel.app/" class="btn btn--primary-dark btn--hero" data-app-path="/"
+         target="_blank" rel="noopener noreferrer" data-i18n="contactCTA">Go to VitalTrek</a>
       <div>
         <p style="font-size: 0.875rem; color: rgba(217,226,220,0.55); margin-bottom: 0.5rem;"
            data-i18n="contactEmailLabel">Or email us directly</p>
@@ -1246,6 +1326,63 @@
           </svg>
           hello@vitaltrek.pe
         </a>
+      </div>
+      <div class="contact-social">
+        <ul class="social-links" aria-label="VitalTrek on social media" data-i18n-aria-label="socialListLabel">
+          <li>
+            <a href="https://www.linkedin.com/" class="social-link" data-social="linkedin"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on LinkedIn" data-i18n-aria-label="socialLinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" class="social-link" data-social="instagram"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on Instagram" data-i18n-aria-label="socialInstagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" class="social-link" data-social="facebook"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on Facebook" data-i18n-aria-label="socialFacebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" class="social-link" data-social="youtube"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on YouTube" data-i18n-aria-label="socialYouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z" />
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="contact-location">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span data-i18n="contactLocation">Lima, Peru</span>
+        </p>
       </div>
       <p class="contact-note" data-i18n="contactNote">Academic MVP — contact channel for demonstration purposes.</p>
     </div>
@@ -1265,6 +1402,56 @@
         <img src="assets/images/brand/vitaltrek-logo.png" alt="VitalTrek" width="140" height="28" loading="lazy" />
       </a>
       <p class="footer-tagline" data-i18n="footerTagline">Checkpoint-based safety for remote adventure tours.</p>
+      <div class="footer-social">
+        <span class="footer-nav-title" data-i18n="footerSocialTitle">Follow us</span>
+        <ul class="social-links" aria-label="VitalTrek on social media" data-i18n-aria-label="socialListLabel">
+          <li>
+            <a href="https://www.linkedin.com/" class="social-link" data-social="linkedin"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on LinkedIn" data-i18n-aria-label="socialLinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" class="social-link" data-social="instagram"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on Instagram" data-i18n-aria-label="socialInstagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" class="social-link" data-social="facebook"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on Facebook" data-i18n-aria-label="socialFacebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" class="social-link" data-social="youtube"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="VitalTrek on YouTube" data-i18n-aria-label="socialYouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z" />
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
       <p class="footer-copyright">
         <span data-i18n="footerCopyright">© 2026 NexaTech. VitalTrek academic MVP.</span>
       </p>
@@ -1274,6 +1461,7 @@
     <nav class="footer-nav" aria-label="Footer navigation">
       <span class="footer-nav-title" data-i18n="footerNavTitle">Navigate</span>
       <a href="#how-it-works" data-i18n="footerHowItWorks">How it works</a>
+      <a href="#product" data-i18n="footerProduct">Product</a>
       <a href="#safety" data-i18n="footerSafety">Safety</a>
       <a href="#plans" data-i18n="footerPlans">Plans</a>
       <a href="#contact" data-i18n="footerContact">Contact</a>
