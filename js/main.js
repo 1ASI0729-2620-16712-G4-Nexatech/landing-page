@@ -11,7 +11,7 @@
   /* ── Config — single source of truth for external URLs ── */
   /* Base URL of the VitalTrek Web Application (no trailing slash).
      Every element with [data-app-path] links to WEB_APP_URL + data-app-path. */
-  const WEB_APP_URL = "https://web-applications-frsv6ksak-nexatech6.vercel.app";
+  const WEB_APP_URL = "https://web-applications-vert.vercel.app";
 
   /* Official social media profiles. Every element with [data-social]
      links to SOCIAL_LINKS[data-social]. */
